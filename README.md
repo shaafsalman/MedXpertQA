@@ -17,9 +17,7 @@ This is the official repository for the paper "MedXpertQA: Benchmarking Expert-L
 
 ## Overview
 
-**MedXpertQA** includes 4,460 questions spanning 17 specialties and 11 body systems. It includes two subsets, **MedXpertQA Text** for text medical evaluation and **MedXpertQA MM** for multimodal medical evaluation.
-
-The Figure presents an overview. The left side illustrates MedXpertQA's diverse data sources, image types, and question attributes. The right side compares typical examples from MedXpertQA MM and a traditional benchmark~(VQA-RAD).
+**MedXpertQA** includes 4,460 questions spanning 17 specialties and 11 body systems. It includes two subsets, **MedXpertQA Text** for text medical evaluation and **MedXpertQA MM** for multimodal medical evaluation. The following figure presents an overview. The left side illustrates MedXpertQA's diverse data sources, image types, and question attributes. The right side compares typical examples from MedXpertQA MM and a traditional multimodal medical benchmark (VQA-RAD).
 
 <p align="center">
    <img src="figs/overview.png" alt="Overview of MedXpertQA." style="width: 90%;">
@@ -30,11 +28,6 @@ The Figure presents an overview. The left side illustrates MedXpertQA's diverse 
 
 - **Next-Generation Multimodal Medical Evaluation:** MedXpert MM introduces expert-level medical exam questions with diverse images and rich clinical information, including patient records and examination results, setting it apart from traditional medical multimodal benchmarks with simple QA pairs generated from image captions.
 - **Highly Challenging:** MedXpertQA introduces high-difficulty medical exam questions and applies rigorous filtering and augmentation, effectively addressing the insufficient difficulty of existing benchmarks like MedQA. The Text and MM subsets are currently the most challenging benchmarks in their respective fields.
-
-<p align="center">
-   <img src="figs/performance.png" alt="Performance of different models on MedXpert Text and other benchmarks." style="width: 50%;">
-</p>
-
 - **Clinical Relevance:**  MedXpertQA incorporates specialty board questions to improve clinical relevance and comprehensiveness by collecting questions corresponding to 17/25 member board exams (specialties) of the American Board of Medical Specialties. It showcases remarkable diversity across multiple dimensions.
 
 <p align="center">
@@ -48,15 +41,20 @@ The Figure presents an overview. The left side illustrates MedXpertQA's diverse 
 
 We evaluate 16 leading proprietary and open-source LMMs and LLMs including advanced inference-time scaled models with a focus on the latest progress in medical reasoning capabilities.
 
-<div style="display: flex; justify-content: center; align-items: center;">
-  <img src="figs/leaderboard1.png" width="480px" style="margin-right: 10px;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+  <img src="figs/leaderboard1.png" width="480px">
   <img src="figs/leaderboard2.png" width="265px">
 </div>
+## Evaluation
+
+Dataset files coming soon.
 
 ## Contact
 
-Shang Qu: lindsay2864tt@gmail.com
-Ning Ding: dn97@mail.tsinghua.edu.cn
+- Shang Qu: lindsay2864tt@gmail.com
+
+- Ning Ding: dn97@mail.tsinghua.edu.cn
+
 
 ## Citation
 
