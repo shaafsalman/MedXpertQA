@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2501.18362">🤗 Dataset</a> •
+  <a href="https://huggingface.co/datasets/TsinghuaC3I/MedXpertQA">🤗 Dataset</a> •
   <a href="https://arxiv.org/abs/2501.18362">📃 Paper</a>
 </p>
 
@@ -13,6 +13,7 @@ This is the official repository for the paper "MedXpertQA: Benchmarking Expert-L
 
 ## 🔥 Updates
 
+- **🤗 [2025-02-09] We release the MedXpertQA [dataset](https://huggingface.co/datasets/TsinghuaC3I/MedXpertQA).**
 - **🔥 [2025-01-31] We introduce [MedXpertQA](https://arxiv.org/abs/2501.18362), a highly challenging and comprehensive benchmark to evaluate expert-level medical knowledge and advanced reasoning!**
 
 ## Overview
@@ -45,9 +46,6 @@ We evaluate 16 leading proprietary and open-source LMMs and LLMs including advan
   <img src="figs/leaderboard1.png" width="480px">
   <img src="figs/leaderboard2.png" width="265px">
 </div>
-## Evaluation
-
-Dataset files coming soon.
 
 ## Contact
 
