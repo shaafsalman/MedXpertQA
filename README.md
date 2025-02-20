@@ -1,18 +1,17 @@
 <div align="center">
-<h1>
-  MedXpertQA: Benchmarking Expert-Level Medical Reasoning and Understanding
-</h1>
+
+# MedXpertQA: Benchmarking Expert-Level Medical Reasoning and Understanding
+
+[![Static Badge](https://img.shields.io/badge/arxiv-2501.18362-ff0000?style=for-the-badge&labelColor=000)](https://arxiv.org/abs/2501.18362)  [![Static Badge](https://img.shields.io/badge/huggingface-fcd022?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/TsinghuaC3I/MedXpertQA)  [![Static Badge](https://img.shields.io/badge/leaderboard-steelblue?style=for-the-badge&logo=googlechrome&logoColor=ffffff)](https://medxpertqa.github.io)  [![Static Badge](https://img.shields.io/badge/licence-mit-teal?style=for-the-badge&labelColor=000)](https://github.com/TsinghuaC3I/MedXpertQA/blob/main/LICENSE)
+
 </div>
 
-<p align="center">
-  <a href="https://huggingface.co/datasets/TsinghuaC3I/MedXpertQA">🤗 Dataset</a> •
-  <a href="https://arxiv.org/abs/2501.18362">📃 Paper</a>
-</p>
 
 This is the official repository for the paper "MedXpertQA: Benchmarking Expert-Level Medical Reasoning and Understanding".
 
 ## 🔥 Updates
 
+- **🎉 [2025-02-20] [Leaderboard](https://medxpertqa.github.io) is on! Check out the results of o3-mini, DeepSeek-R1, o1, and Qwen2.5-VL-72B!**
 - **🤗 [2025-02-09] We release the MedXpertQA [dataset](https://huggingface.co/datasets/TsinghuaC3I/MedXpertQA).**
 - **🔥 [2025-01-31] We introduce [MedXpertQA](https://arxiv.org/abs/2501.18362), a highly challenging and comprehensive benchmark to evaluate expert-level medical knowledge and advanced reasoning!**
 
@@ -53,6 +52,9 @@ We evaluate 16 leading proprietary and open-source LMMs and LLMs including advan
 
 - Ning Ding: dn97@mail.tsinghua.edu.cn
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/TsinghuaC3I/MedXpertQA/blob/main/LICENSE) file for details.
 
 ## Citation
 
