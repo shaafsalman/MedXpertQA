@@ -11,6 +11,7 @@ This is the official repository for the paper "MedXpertQA: Benchmarking Expert-L
 
 ## 🔥 Updates
 
+- **:computer: [2025-02-28] We release the evaluation code! Check out the [Usage](#usage).**
 - **🎉 [2025-02-20] [Leaderboard](https://medxpertqa.github.io) is on! Check out the results of o3-mini, DeepSeek-R1, o1, and Qwen2.5-VL-72B!**
 - **🤗 [2025-02-09] We release the MedXpertQA [dataset](https://huggingface.co/datasets/TsinghuaC3I/MedXpertQA).**
 - **🔥 [2025-01-31] We introduce [MedXpertQA](https://arxiv.org/abs/2501.18362), a highly challenging and comprehensive benchmark to evaluate expert-level medical knowledge and advanced reasoning!**
@@ -45,6 +46,36 @@ We evaluate 16 leading proprietary and open-source LMMs and LLMs including advan
   <img src="figs/leaderboard1.png" width="480px">
   <img src="figs/leaderboard2.png" width="265px">
 </div>
+
+
+## Usage
+
+1. Clone the Repository:
+
+```
+git clone https://github.com/TsinghuaC3I/MedXpertQA
+cd MedXpertQA/eval
+```
+
+2. Install Dependencies:
+
+```
+pip3 install -r requirements.txt
+```
+
+3. Run Inference:
+
+```
+bash scripts/run.sh
+```
+
+The *run.sh* script performs inference by calling *main.py*, which offers additional features such as multithreading. Additionally, you can modify *model/api_agent.py* to support more models.
+
+4. Evaluation:
+
+We provide a script *eval.ipynb* to calculate accuracy on each subset.
+
+**Note:** Please use this script when evaluating the **QVQ** and **DeepSeek-R1**. Through case studies, we found that the answer cleaning function in the *utils.py* is unsuitable for these two models.
 
 ## Contact
 
