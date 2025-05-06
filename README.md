@@ -22,7 +22,7 @@
 
 ## 🔥News
 
-- **🎉 [2025-05-06] Our work is accepted to [ICML 2025](https://icml.cc/Conferences/2025)!**
+- **🎉 [2025-05-06] MedXpertQA paper is accepted to [ICML 2025](https://icml.cc/Conferences/2025)!**
 - **💻 [2025-02-28] We release the evaluation code! Check out the [Usage](#usage).**
 - **🌟 [2025-02-20] [Leaderboard](https://medxpertqa.github.io) is on! Check out the results of o3-mini, DeepSeek-R1, o1, and Qwen2.5-VL-72B!**
 - **🤗 [2025-02-09] We release the MedXpertQA [dataset](https://huggingface.co/datasets/TsinghuaC3I/MedXpertQA).**
@@ -63,8 +63,8 @@ We evaluate 17 leading proprietary and open-source LMMs and LLMs including advan
 **Further details are available in the [leaderboard](https://medxpertqa.github.io) and the [paper](https://arxiv.org/abs/2501.18362).**
 
 <p align="center">
-  <img src="figs/leaderboard1.png" width="48%">
-  <img src="figs/leaderboard2.png" width="27%">
+  <img src="figs/leaderboard1.png" width="60%">
+  <img src="figs/leaderboard2.png" width="32.5%">
 </p>
 
 
