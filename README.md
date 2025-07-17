@@ -115,7 +115,7 @@ If you find our work helpful, please use the following citation.
 
 ```bibtex
 @article{zuo2025medxpertqa,
-  title={MedXpertQA: Benchmarking Expert-Level Medical Reasoning and Understanding},
+  title={Medxpertqa: Benchmarking expert-level medical reasoning and understanding},
   author={Zuo, Yuxin and Qu, Shang and Li, Yifei and Chen, Zhangren and Zhu, Xuekai and Hua, Ermo and Zhang, Kaiyan and Ding, Ning and Zhou, Bowen},
   journal={arXiv preprint arXiv:2501.18362},
   year={2025}
