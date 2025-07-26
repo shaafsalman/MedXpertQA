@@ -92,8 +92,6 @@ class APIAgent(LLMAgent):
             )
         elif model_name in [
             "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
-            "Mistral-Small-3.2-24B-Instruct-2506",
-            "Mistral-24B",
             "Zaynoid/Mistral-24B"
         ]:
             print("Mistral vLLM")

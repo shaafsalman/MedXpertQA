@@ -1,0 +1,13 @@
+2025-07-26 12:03:24.565236: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1753531404.599257   37431 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1753531404.608944   37431 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1753531404.635826   37431 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1753531404.635978   37431 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1753531404.636058   37431 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1753531404.636145   37431 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+Mistral vLLM
+INFO 07-26 12:03:29 [__init__.py:235] Automatically detected platform cuda.
+Parse safetensors files:   0%|                                                                            | 0/10 [00:00<?, ?it/s]Parse safetensors files:  10%|██████▊                                                             | 1/10 [00:00<00:02,  3.73it/s]Parse safetensors files: 100%|███████████████████████████████████████████████████████████████████| 10/10 [00:00<00:00, 35.98it/s]
+INFO 07-26 12:03:48 [config.py:1605] Using max model len 128000
+WARNING 07-26 12:03:48 [arg_utils.py:1495] The model has a long context length (128000). This may causeOOM during the initial memory profiling phase, or result in low performance due to small KV cache size. Consider setting --max-model-len to a smaller value.

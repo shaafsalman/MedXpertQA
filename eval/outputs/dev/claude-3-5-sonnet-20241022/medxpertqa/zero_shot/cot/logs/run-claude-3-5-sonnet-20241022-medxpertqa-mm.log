@@ -1,0 +1,14 @@
+2025-07-26 11:51:31 root [INFO] ### Start Index: 1
+2025-07-26 11:51:31 root [ERROR] Error: [Errno 2] No such file or directory: 'images/MM-0-a.jpeg'
+2025-07-26 11:51:31 root [ERROR] Traceback (most recent call last):
+  File "/lambda/nfs/gemma/MedXpertQA/eval/main.py", line 205, in complete_item
+    response, prediction, conf, messages = zero_shot_cot(prompt_templates, input_sample, llm_agent, output, args.dataset, task, messages)
+  File "/lambda/nfs/gemma/MedXpertQA/eval/main.py", line 88, in zero_shot_cot
+    messages[-1]["content"].append(llm_agent.image_content(image_url))
+  File "/lambda/nfs/gemma/MedXpertQA/eval/model/api_agent.py", line 204, in image_content
+    return {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{encode_image(img_path)}"}}
+  File "/lambda/nfs/gemma/MedXpertQA/eval/model/api_agent.py", line 16, in encode_image
+    with open(image_path, "rb") as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'images/MM-0-a.jpeg'
+
+OpenAI
